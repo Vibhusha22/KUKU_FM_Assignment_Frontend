@@ -1,0 +1,74 @@
+
+
+.container {
+  background-color: #f8f9fa; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 2rem; 
+}
+
+.card {
+  border-radius: 8px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.inputReview {
+  border-radius: 4px; 
+}
+
+.btnSubmit {
+  background-color: #007bff; 
+  border-color: #007bff; 
+  transition: background-color 0.3s ease, border-color 0.3s ease; 
+}
+
+.btnSubmit:hover {
+  background-color: #0056b3; 
+  border-color: #0056b3; 
+}
+
+.listGroupItem {
+  border: none; 
+  padding: 1rem; 
+  border-radius: 8px; 
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  width: 100%; 
+  min-height: 4rem; 
+}
+
+.reviewContent {
+  flex: 1; 
+  display: flex;
+  margin-right: 2rem; 
+}
+
+.reviewText {
+  margin: 0;
+}
+
+.reviewTitle {
+  font-weight: 500; 
+}
+
+.reviewScore {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem; 
+}
+
+.starContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem; 
+}
+
+.deleteIcon {
+  transition: color 0.3s ease, transform 0.3s ease; 
+  flex-shrink: 0; 
+}
+
+.deleteIcon:hover {
+  color: #dc3545; 
+  transform: scale(1.1); 
+}
