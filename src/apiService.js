@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/books";
+const API_URL = "https://kuku-fm-assignment-backend-1zi3zmbc6-vibhushas-projects.vercel.app/books";
 
 const getAudioBooks = async () => {
   try {
